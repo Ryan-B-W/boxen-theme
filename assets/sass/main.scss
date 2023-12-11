@@ -55,6 +55,9 @@ nav {
                 text-decoration: underline;
                 background: var(--bg-button-active);
             }
+            &:visited {
+                color: var(--fg-main);
+            }
         }
         li {
             display: inline;
@@ -93,4 +96,13 @@ main {
         float: right;
         padding-left: 1.25em;
     }
+}
+a {
+    color: var(--fg-link);
+    &:visited {
+        color: var(--fg-link-visited);
+    }
+}
+img {
+    max-width: 100%;
 }
