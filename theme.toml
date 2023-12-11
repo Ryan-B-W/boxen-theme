@@ -1,0 +1,18 @@
+name = "Boxen Theme"
+license = "GNU AGPL 3"
+licenselink = "https://github.com/Ryan-B-W/boxen-theme/blob/main/LICENSE"
+description = "A soft and responsive theme using semantic markup, minimal CSS, and zero JavaScript."
+homepage = "http://sand.boxen.page/theme"
+tags = []
+features = []
+min_version = "0.115.2"
+
+[author]
+  name = 'Ryan "sandbox" Wilcox'
+  homepage = "https://sand.boxen.page"
+
+# If porting an existing theme
+[original]
+  name = "boxen.page"
+  homepage = "https://sand.boxen.page"
+  repo = "https://github.com/Ryan-B-W/boxen-page"

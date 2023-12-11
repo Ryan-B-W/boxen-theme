@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Params.Title }}</h1>
+  <aside class="byline date">
+    Published: {{ .Date.Format "January 2, 2006" }}
+  </aside>
+  <aside class="byline author">
+    Author: {{ .Site.Params.author }}
+  </aside>
+  <br />
+  {{ .Content }}
+</article>
+{{ end }}

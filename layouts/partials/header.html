@@ -1,0 +1,8 @@
+<header>
+  <h1>{{ .Site.Title }}</h1>
+  {{ if .Params.subtitle }}
+  <p>{{ .Params.subtitle }}</p>
+  {{ else }}
+  <p>{{ .Site.Params.subtitle }}</p>
+  {{ end }}
+</header>
