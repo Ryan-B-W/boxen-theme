@@ -1,0 +1,26 @@
+:root {
+    // Dark-mode colors taken from Modus Themes
+    // https://protesilaos.com/emacs/modus-themes
+    --bg-main: #141617;
+    --bg-dim: #121212;
+    --fg-main: #ffffff;
+    --border: #646464;
+    --fg-link: #79a8ff;
+    --fg-link-visited: #feacd0;
+    --bg-button-active: #535353;
+    --bg-button-inactive: #1e1e1e;
+    --fringe: #1e1e1e;
+}
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-main: #fdfdfd;
+        --bg-dim: #efefef;
+        --fg-main: #000000;
+        --border: #888899;
+        --fg-link: #3548cf;
+        --fg-link-visited: #721045;
+        --bg-button-active: #c4c4c4;
+        --bg-button-inactive: #ccccdd;
+        --fringe: #fdfdfc;
+    }
+}

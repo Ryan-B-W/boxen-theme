@@ -1,6 +1,8 @@
+@import './colors';
+
 html {
-    background: #fdfdfc;
-    color: #000000;
+    background: var(--fringe);
+    color: var(--fg-main);
 }
 body {
     padding: 0;
@@ -8,28 +10,28 @@ body {
     max-width: 42em;
 }
 header {
-    border: 1px solid #888899;
+    border: 1px solid var(--border);
     border-radius: 0.5em;
     padding: 0.6em;
     margin: 0.6em;
-    background: #efefef;
+    background: var(--bg-dim);
 }
 nav {
     min-height: 19em;
     width: 9em;
-    border: 1px solid #888899;
+    border: 1px solid var(--border);
     border-radius: 0.5em;
     padding: 0.3em;
     margin: 0.6em;
     float: left;
-    background: #efefef;
+    background: var(--bg-dim);
     h1, h2, h3, h4, h5, h6 {
         font-variant: small-caps;
     }
     hr {
-        color: #888899;
-        background: #888899;
-        border-color: #888899;
+        color: var(--border);
+        background: var(--bg-dim);
+        border-color: var(--border);
         border-width: 1px 0px 0px 0px;
         width: calc(100% + 0.6em);
         margin-left: -0.3em;
@@ -39,11 +41,11 @@ nav {
         list-style: none;
         padding: 0;
         a {
-            color: #000000;
-            background: #ccccdd;
+            color: var(--fg-main);
+            background: var(--bg-button-inactive);
             text-decoration: none;
             text-align: center;
-            border: 1px solid #888899;
+            border: 1px solid var(--border);
             border-radius: 0.125em;
             padding: 0.25em;
             margin: 0.25em;
@@ -51,6 +53,7 @@ nav {
 
             &:hover {
                 text-decoration: underline;
+                background: var(--bg-button-active);
             }
         }
         li {
@@ -59,21 +62,21 @@ nav {
     }
 }
 footer {
-    border: 1px solid #888899;
+    border: 1px solid var(--border);
     border-radius: 0.5em;
     padding: 0.3em;
     margin: 0.6em;
     clear: both;
-    background: #cccccc;
+    background: var(--bg-dim);
     .icon {
         position: relative;
         top: 0.1em;
     }
 }
 main {
-    color: #000000;
-    background: #ffffff;
-    border: 1px solid #888899;
+    color: var(--fg-main);
+    background: var(--bg-main);
+    border: 1px solid var(--border);
     border-radius: 0.5em;
     max-width: 28.5em;
     padding: 0.6em;
