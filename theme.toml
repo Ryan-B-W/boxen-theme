@@ -1,7 +1,7 @@
 name = "Boxen Theme"
 license = "GNU AGPL 3"
 licenselink = "https://github.com/Ryan-B-W/boxen-theme/blob/main/LICENSE"
-description = "A soft and responsive theme using semantic markup, minimal CSS, and zero JavaScript."
+description = "A soft and responsive theme with dark and light modes using semantic markup, minimal CSS, and zero JavaScript."
 homepage = "http://sand.boxen.page/theme"
 tags = []
 features = []
