@@ -1,8 +1,8 @@
 <header>
   <h1>{{ .Site.Title }}</h1>
-  {{ if .Params.subtitle }}
+  {{- if .Params.subtitle }}
   <p>{{ .Params.subtitle }}</p>
-  {{ else }}
+  {{- else }}
   <p>{{ .Site.Params.subtitle }}</p>
-  {{ end }}
+  {{- end }}
 </header>

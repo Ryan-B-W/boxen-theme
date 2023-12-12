@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{- define "main" -}}
 <article>
   <h1>{{ .Params.Title }}</h1>
   <aside class="byline date">
@@ -8,6 +8,6 @@
     Author: {{ .Site.Params.author }}
   </aside>
   <br />
-  {{ .Content }}
+  {{- .Content -}}
 </article>
-{{ end }}
+{{- end -}}

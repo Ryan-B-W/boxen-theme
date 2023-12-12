@@ -1,18 +1,18 @@
-{{ if .Site.Menus }}
-{{ $count := 1 }}
-{{ range $menuName, $menu := .Site.Menus }}
-{{ if gt $count 1 }}
+{{- if .Site.Menus -}}
+{{- $count := 1 -}}
+{{- range $menuName, $menu := .Site.Menus }}
+{{- if gt $count 1 }}
 <nav aria-labelledby="nav-head-{{ $menuName }}" class="nav-secondary">
   <h1 id="nav-head-{{ $menuName }}">{{ $menuName }}</h1>
   <ul>
-    {{ range $menu }}
+    {{- range $menu }}
     <li><a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-    {{ end }}
+    {{- end }}
   </ul>
 </nav>
-{{ end }}
-{{ $count = add $count 1 }}
-{{ end }}
-{{ else }}
+{{- end }}
+{{- $count = add $count 1 -}}
+{{- end }}
+{{- else }}
 <!--No nav.  No menus set in site config.-->
-{{ end }}
+{{- end }}

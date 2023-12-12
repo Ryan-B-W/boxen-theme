@@ -1,10 +1,10 @@
-{{ define "main" }}
+{{- define "main" -}}
 <article>
   <h1>Blog</h1>
   <ul>
-    {{ range .Pages }}
+    {{- range .Pages }}
     <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}</li>
-    {{ end }}
+    {{- end -}}
   </ul>
 </article>
-{{ end }}
+{{- end -}}
