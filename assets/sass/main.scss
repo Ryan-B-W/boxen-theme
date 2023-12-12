@@ -17,7 +17,7 @@ header {
     background: var(--bg-dim);
 }
 nav {
-    min-height: 19em;
+    min-height: 9em;
     width: 9em;
     border: 1px solid var(--border);
     border-radius: 0.5em;
@@ -63,6 +63,9 @@ nav {
             display: inline;
         }
     }
+}
+nav.nav-secondary {
+    clear: left;
 }
 footer {
     border: 1px solid var(--border);

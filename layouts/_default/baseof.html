@@ -5,11 +5,12 @@
 </head>
 <body>
   {{ partial "header.html" . }}
-  {{ partial "nav.html" . }}
+  {{ partial "nav-main.html" . }}
   <main>
     {{ block "main" . }}
     {{ end }}
   </main>
+  {{ partial "nav.html" . }}
   {{ partial "footer.html" . }}
 </body>
 </html>
