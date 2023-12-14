@@ -5,3 +5,5 @@ Examples of sites using Boxen Theme include:
  - [[https://ryanbw.com][RyanBW.com]] homepage of Ryan "Brody" Wilcox
  - [[https://sand.boxen.page][sand.boxen.page]] homepage of sandbox
  - [[https://vimacs.app][Vimacs.app]] site of the Vimacs.app Emacs configuration
+
+Using this theme on your sight?  You're encouraged to [[https://github.com/Ryan-B-W/boxen-theme/issues/new?assignees=Ryan-B-W&labels=&projects=&template=request-being-featured-as-a-user-of-this-theme.md&title=Request+to+have+SITE_NAME+included+in+README.org+as+an+example][open an issue]] or [[https://github.com/Ryan-B-W/boxen-theme/compare][create a pull request]] to add your site to this list!
