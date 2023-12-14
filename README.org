@@ -1,0 +1,7 @@
+* About
+Boxen Theme is a soft and responsive theme with dark and light modes using semantic markup, minimal CSS, and zero JavaScript.
+* Examples
+Examples of sites using Boxen Theme include:
+ - [[https://ryanbw.com][RyanBW.com]] homepage of Ryan "Brody" Wilcox
+ - [[https://sand.boxen.page][sand.boxen.page]] homepage of sandbox
+ - [[https://vimacs.app][Vimacs.app]] site of the Vimacs.app Emacs configuration
